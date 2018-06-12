@@ -1,9 +1,11 @@
-header{
-   
+#header-background{
     background-image: url("images/header_bg.png") ;
     width: 100%;
-
+    position: absolute;
+    height:105px;
+    top: 0;
 }
+
 #container{
     width: 900px;
     height: 105px;
@@ -11,12 +13,14 @@ header{
     margin: 0;
     padding: 0;
     margin: auto;
+    margin-bottom: 30px;
 }
 nav{
     position: absolute;
     bottom: 15px;
     left:  0px;
     direction: rtl;
+    
 }
 nav a{
     font-size: 13px;
@@ -27,7 +31,7 @@ nav a{
     padding-right: 20px;
     padding-left: 10px;
     text-align: center;
-
+   
 }
 #home{
    position: absolute;
@@ -53,7 +57,7 @@ nav a{
 #logo{
     position: absolute;
     right: 0px;
-    top: -100px;
+    top: 30px;
 }
 #english{
     position: absolute;
@@ -67,13 +71,22 @@ nav a{
     color: blue;
     text-decoration-line: underline;
 }
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdwn-content{
+    display: block;
+    position: absolute;    
+    top: 0px;    
+}
    
 #main{
     width: 900px;
    margin: 0 auto;
-    height:700px;
+    height:800px;
     position: relative;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .box {
    
