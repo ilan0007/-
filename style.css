@@ -1,0 +1,197 @@
+header{
+    width: 100%;
+    height: 105px;
+    background-image: url("images/header_bg.png") ;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#search{
+    position: absolute;
+    top: 18px;
+    left: 58px;
+    border-top-right-radius: 10px;
+    height: 15px;
+}
+#searchButton{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+#searchButton:active{
+    top: 40px;
+}
+#logo{
+    position: absolute;
+    right: 0px;
+    top: -100px;
+}
+#english{
+    position: absolute;
+    font-size: 14px;
+    top: 20px;
+    left: 210px;
+    color: white;
+    text-decoration: none;
+}
+#english:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+   
+#main{
+    width: 900px;
+   margin: 0 auto;
+    height:100%;
+    position: relative;
+    margin-top: 30px;
+}
+.box {
+   
+    position: relative;
+    width: 292px;
+    height: 216px;
+    display: inline-block; 
+     
+    
+}
+.bigbox{
+    position: relative;
+    width: 291px;
+    height: 355px;
+    display: inline-block; 
+    margin-bottom: 20px;
+    border-bottom-right-radius: 20px; 
+   
+}
+#bigLeft{
+    background-image: url("images/man.jpg");
+    margin-right: 7px;
+}
+.textTab{
+    position: relative;
+    padding-top: 250px;
+    padding-left: 37px;
+    text-align: right;
+    color: white;
+   
+
+}
+#bigCenter{
+    background-image: url("images/Picture-046410251500.jpg");
+   
+   
+}
+#bigRight{
+    background-image: url("images/1908364606615453350.JPG");
+    margin-left: 7px;
+}
+body{
+    
+    margin: 0;
+}
+footer{
+    position: fixed;
+    background-image:url("images/footer_bg.png");
+    width: 100%;
+    height: 37px;
+    bottom: 0;
+}
+.bigbox h5{
+    position: absolute;
+    color: white;
+    bottom: 60px;
+    right: 20px;
+}
+#right{
+    margin-right: 7px;
+}
+#left{
+    margin-left: 7px;
+}
+.bigbox p{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+    width: 225px;
+    direction: rtl;
+}
+.bigbox a{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 50px;
+    font-size: 11px;
+    direction: rtl;
+    
+}
+ a:hover  {
+    color: blue; 
+
+}
+.blueDots{
+    display: none;
+}
+
+ a:hover > .blueDots{
+    display: inline-block;
+}
+ a:hover > .whiteDots{
+    display: none;
+}
+#map{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.banner{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.box h5{
+    position: absolute;
+    top:-10px;
+    direction: rtl;
+    right: 25px;
+}
+#right a {
+    position: absolute;
+    color: black;
+    right: 25px;
+    font-size: 12px;
+    direction: rtl;
+}
+#north{   
+    top: 60px;
+}
+#center{   
+    top: 80px;
+}
+#south{  
+    top: 100px;
+}
+ #right a img{
+     position: relative;
+     right: 5px;
+ }
+ .bLink {
+     position: absolute;
+     direction: rtl;
+     color: black;
+     font-size: 12px;
+     bottom: 20px;
+     left: 20px;
+ }
+ .yellowDots{
+     display: inline-block;
+ }
+
+a:hover > .yellowDots{
+    display: none;
+}
+#right a:hover{
+    color: blue;
+}
